@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Chethana</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Navbar -->
+        <nav>
+            <div class="logo">
+                <span class="circle"></span>
+            </div>
+            <ul>
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('education')">Education</a></li>
+                <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+                <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+                <li><a href="#" onclick="showSection('certification')">Certification</a>
+                <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+           </ul>
+        </nav>
+        
+        <!-- Sections -->
+        <div id="home" class="content-section">
+            <!-- Hero Section -->
+            <div class="hero">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="name">Chethana</span></h1>
+            
+                    <p>I am a recent graduate with strong skills in both front-end and back-end development. Passionate about building clean, responsive, and user-friendly websites, I enjoy turning ideas into functional digital solutions. With a solid foundation in web technologies, I am eager to contribute, learn, and grow as a web developer.</p>
+
+                    <div class="social-icons">
+                        <a href="https://github.com/ChethanaM13"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/chethana-m-52041422a/" target="_blank">
+  <i class="fa-brands fa-linkedin"></i>
+</a>
+
+                    
+                    </div>
+
+                    <div class="buttons"> 
+                        <a href="https://drive.google.com/file/d/102zqdXXqDKuNi85yu8K62pcqsHOL4-bY/view?usp=drivesdk" class="btn">Resume</a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="circle-bg"></div>
+                    <img src="cheth.jpeg" alt="Profile Photo">
+                </div>
+            </div>
+        </div>
+
+        <div id="education" class="content-section hidden">
+            <h2>Education</h2><br>
+            <p><strong>B.E. in Information Science & Engineering</strong> - Malnad College of Engineering Hassan (2021 - 2025)</p>
+            <p><strong>PUC- PCMB</strong> - Government P.U College Ripponpete (2019 - 2021)</p>
+            <p><strong>SSLC </strong> - Government Junior College Ripponpete (2019 - 2021)</p>
+        </div>
+
+        <div id="skills" class="content-section hidden">
+            <h2>Skills</h2><br>
+            <ul>
+                <li>HTML & CSS, Bootstrap</li>
+                <li>JavaScript, Typescript</li>
+                <li>MySQL</li>
+                <li>Java</li>
+                <li>Python</li>
+            </ul>
+        </div>
+
+        <div id="projects" class="content-section hidden">
+            <h2>Projects</h2><br>
+            <p>1. Predicting the impact rates of the hospitalized diabetic patient</p>
+            <p>2. Online Hotel Room Booking</p>
+            <p>3. DSA Tracker</p>
+            <p>4. Lost & Found Platform</p>
+        </div>
+
+        <div id="certification" class="content-section hidden">
+            <h2>Certifications</h2><br>
+            <p>1. web development - Global Quest Technologies </p>
+            <p>2. Advanced Java Programming - JV Global</p>
+            <p>3. Computer Hardware & MS Office Tools </p>
+        </div>
+
+        <div id="contact" class="content-section hidden">
+            <h2>Contact</h2><br>
+            <p>Phone No: 9880911011</p>
+            <p>Email: chethanamanjunath70@gmail.com</p>
+            <p>LinkedIn:https://www.linkedin.com/in/chethana-m-52041422a</p>
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
